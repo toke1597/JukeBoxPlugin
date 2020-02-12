@@ -1,0 +1,8 @@
+name: Opengui
+version: ${project.version}
+main: com.toke1597.opengui.Opengui
+api-version: 1.13
+commands:
+  gui:
+    description: Open GUI
+    aliases: [juke, j]
