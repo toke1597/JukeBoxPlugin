@@ -97,7 +97,11 @@ public class MenuHandler implements Listener {
                 p.sendMessage(ChatColor.GREEN + "Playing~~!");
             } else if (e.getCurrentItem().getType().equals(Material.LAVA_BUCKET)) {
                 p.closeInventory();
-                p.playSound(p.getLocation(), Sound.MUSIC_NETHER, 1, 1);
+                p.playSound(p.getLocation(), Sound.MUSIC_NETHER_NETHER_WASTES, 1, 1);
+                p.sendMessage(ChatColor.GREEN + "Playing~~!");
+            }else if (e.getCurrentItem().getType().equals(Material.LAVA_BUCKET)) {
+                p.closeInventory();
+ //               p.playSound(p.getLocation(), Sound.MUSIC_, 1, 1);
                 p.sendMessage(ChatColor.GREEN + "Playing~~!");
             } else if (e.getCurrentItem().getType().equals(Material.BARRIER)) {
                 p.closeInventory();
@@ -107,3 +111,43 @@ public class MenuHandler implements Listener {
         }
     }
 }
+/*1
+MUSIC_DISC_OTHERSIDE
+ 2
+MUSIC_DISC_PIGSTEP
+ 3
+MUSIC_NETHER_BASALT_DELTAS
+ 4
+MUSIC_NETHER_CRIMSON_FOREST
+ 5
+MUSIC_NETHER_NETHER_WASTES
+ 6
+MUSIC_NETHER_SOUL_SAND_VALLEY
+ 7
+MUSIC_NETHER_WARPED_FOREST
+ 8
+MUSIC_OVERWORLD_DEEP_DARK
+ 9
+MUSIC_OVERWORLD_DRIPSTONE_CAVES
+ 10
+MUSIC_OVERWORLD_FROZEN_PEAKS
+ 11
+MUSIC_OVERWORLD_GROVE
+ 12
+MUSIC_OVERWORLD_JAGGED_PEAKS
+ 13
+MUSIC_OVERWORLD_JUNGLE_AND_FOREST
+ 14
+MUSIC_OVERWORLD_LUSH_CAVES
+ 15
+MUSIC_OVERWORLD_MEADOW
+ 16
+MUSIC_OVERWORLD_OLD_GROWTH_TAIGA
+ 17
+MUSIC_OVERWORLD_SNOWY_SLOPES
+ 18
+MUSIC_OVERWORLD_STONY_PEAKS
+ 19
+MUSIC_OVERWORLD_SWAMP
+
+ */

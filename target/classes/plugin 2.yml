@@ -4,5 +4,5 @@ main: com.toke1597.opengui.Opengui
 api-version: 1.13
 commands:
   gui:
-    description: 마인크래프트 바닐라 음악 재생플레이어 입니다.
+    description: Open GUI
     aliases: [juke, j]
