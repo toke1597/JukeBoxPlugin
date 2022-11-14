@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.toke1597</groupId>
-    <artifactId>opengui</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>JukeBox</artifactId>
+    <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Opengui</name>
+    <name>JukeBox</name>
 
     <properties>
         <java.version>1.8</java.version>

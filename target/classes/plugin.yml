@@ -1,5 +1,5 @@
-name: Opengui
-version: 1.0-SNAPSHOT
+name: JukeBox
+version: 1.1-SNAPSHOT
 main: com.toke1597.opengui.Opengui
 api-version: 1.13
 commands:
